@@ -47,6 +47,34 @@ O objetivo é ajudar novos desenvolvedores a entenderem os fundamentos da progra
 
 1. Clone ou faça o download do repositório:
    ```bash
-   git clone https://github.com/seu-usuario/par-ou-impar.git
+   git clone https://github.com/RenatoDEV87/par-ou-impar.git
    cd par-ou-impar
 
+2. Compile o programa:
+
+javac ParOuImpar.java
+
+
+3. Execute o programa:
+
+java ParOuImpar
+
+### Exemplo de Execução:
+
+Entrada 1:
+
+Digite um número inteiro: 5
+O número 5 é ímpar.
+
+Entrada 2:
+
+Digite um número inteiro: 10
+O número 10 é par.
+
+Tecnologias Utilizadas
+
+Linguagem: Java
+Entrada de dados: Classe Scanner
+
+Licença
+Este projeto está licenciado sob a MIT License.
