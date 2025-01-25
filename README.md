@@ -7,12 +7,13 @@ Este é um programa em Java que determina se um número inteiro fornecido pelo u
 ## Tabela de Conteúdos
 
 1. [Descrição](#descrição)
-2. [Como Funciona](#como-funciona)
-3. [Como Executar](#como-executar)
-4. [Exemplo de Execução](#exemplo-de-execução)
-5. [Tecnologias Utilizadas](#tecnologias-utilizadas)
-6. [Contribuições](#contribuições)
-7. [Licença](#licença)
+2. [Código](#código)
+3. [Como Funciona](#como-funciona)
+4. [Como Executar](#como-executar)
+5. [Exemplo de Execução](#exemplo-de-execução)
+6. [Tecnologias Utilizadas](#tecnologias-utilizadas)
+7. [Contribuições](#contribuições)
+8. [Licença](#licença)
 
 ---
 
@@ -27,54 +28,31 @@ O objetivo é ajudar novos desenvolvedores a entenderem os fundamentos da progra
 
 ---
 
-## Como Funciona
+## Código
 
-1. O programa solicita ao usuário que insira um número inteiro.
-2. Com base no valor fornecido, ele verifica se o número é divisível por 2:
-   - Se **sim**, o número é **par**.
-   - Caso contrário, o número é **ímpar**.
-3. O resultado é exibido no console.
+Abaixo está o código do programa:
 
----
+```java
+import java.util.Scanner;
 
-## Como Executar
+public class ParOuImpar {
+    public static void main(String[] args) {
+        // Criando um scanner para ler a entrada do usuário
+        Scanner scanner = new Scanner(System.in);
 
-### Pré-requisitos
-- Certifique-se de que o **Java Development Kit (JDK)** está instalado em sua máquina.
-- Um terminal ou IDE que suporte Java.
+        // Pedindo ao usuário para inserir um número
+        System.out.print("Digite um número inteiro: ");
+        int numero = scanner.nextInt();
 
-### Passos para executar:
+        // Verificando se o número é par ou ímpar
+        if (numero % 2 == 0) {
+            System.out.println("O número " + numero + " é par.");
+        } else {
+            System.out.println("O número " + numero + " é ímpar.");
+        }
 
-1. Clone ou faça o download do repositório:
-   ```bash
-   git clone https://github.com/RenatoDEV87/par-ou-impar.git
-   cd par-ou-impar
+        // Fechando o scanner para evitar vazamento de recursos
+        scanner.close();
+    }
+}
 
-2. Compile o programa:
-
-javac ParOuImpar.java
-
-
-3. Execute o programa:
-
-java ParOuImpar
-
-### Exemplo de Execução:
-
-Entrada 1:
-
-Digite um número inteiro: 5
-O número 5 é ímpar.
-
-Entrada 2:
-
-Digite um número inteiro: 10
-O número 10 é par.
-
-Tecnologias Utilizadas
-
-Linguagem: Java
-Entrada de dados: Classe Scanner
-
-Licença
-Este projeto está licenciado sob a MIT License.
