@@ -55,15 +55,27 @@ public class ParOuImpar {
         scanner.close();
     }
 }
-
+```
 
 ---
 
-
 ## Como Funciona
 
-O programa solicita ao usuário que insira um número inteiro.
-Com base no valor fornecido, ele verifica se o número é divisível por 2:
-Se sim, o número é par.
-Caso contrário, o número é ímpar.
-O resultado é exibido no console.
+1. O programa solicita ao usuário que insira um número inteiro.
+2. Com base no valor fornecido, ele verifica se o número é divisível por 2:
+
+- Se sim, o número é par.
+- Caso contrário, o número é ímpar.
+
+3. O resultado é exibido no console.
+
+---
+
+## Como Executar
+
+Pré-requisitos
+
+Certifique-se de que o Java Development Kit (JDK) está instalado em sua máquina.
+Um terminal ou IDE que suporte Java.
+Passos para executar:
+Clone ou faça o download do repositório:
