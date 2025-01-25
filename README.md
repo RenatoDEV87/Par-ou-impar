@@ -7,10 +7,10 @@ Este é um programa em Java que determina se um número inteiro fornecido pelo u
 ## Tabela de Conteúdos
 
 1. [Descrição](#descrição)
-2. [Código](#código)
-3. [Como Funciona](#como-funciona)
-4. [Como Executar](#como-executar)
-5. [Exemplo de Execução](#exemplo-de-execução)
+2. [Como Funciona](#como-funciona)
+3. [Como Executar](#como-executar)
+4. [Exemplo de Execução](#exemplo-de-execução)
+5. [Código](#código)
 6. [Tecnologias Utilizadas](#tecnologias-utilizadas)
 7. [Licença](#licença)
 
@@ -27,44 +27,13 @@ O objetivo é ajudar novos desenvolvedores a entenderem os fundamentos da progra
 
 ---
 
-## Código
-
-Abaixo está o código do programa:
-
-```java
-import java.util.Scanner;
-
-public class ParOuImpar {
-    public static void main(String[] args) {
-        // Criando um scanner para ler a entrada do usuário
-        Scanner scanner = new Scanner(System.in);
-
-        // Pedindo ao usuário para inserir um número
-        System.out.print("Digite um número inteiro: ");
-        int numero = scanner.nextInt();
-
-        // Verificando se o número é par ou ímpar
-        if (numero % 2 == 0) {
-            System.out.println("O número " + numero + " é par.");
-        } else {
-            System.out.println("O número " + numero + " é ímpar.");
-        }
-
-        // Fechando o scanner para evitar vazamento de recursos
-        scanner.close();
-    }
-}
-```
-
----
-
 ## Como Funciona
 
 1. O programa solicita ao usuário que insira um número inteiro.
 2. Com base no valor fornecido, ele verifica se o número é divisível por 2:
 
-- Se sim, o número é par.
-- Caso contrário, o número é ímpar.
+- Se sim, o número é **par**.
+- Caso contrário, o número é **ímpar**.
 
 3. O resultado é exibido no console.
 
@@ -118,6 +87,37 @@ O número 10 é par.
 
 ---
 
+## Código
+
+Abaixo está o código do programa:
+
+```java
+import java.util.Scanner;
+
+public class ParOuImpar {
+    public static void main(String[] args) {
+        // Criando um scanner para ler a entrada do usuário
+        Scanner scanner = new Scanner(System.in);
+
+        // Pedindo ao usuário para inserir um número
+        System.out.print("Digite um número inteiro: ");
+        int numero = scanner.nextInt();
+
+        // Verificando se o número é par ou ímpar
+        if (numero % 2 == 0) {
+            System.out.println("O número " + numero + " é par.");
+        } else {
+            System.out.println("O número " + numero + " é ímpar.");
+        }
+
+        // Fechando o scanner para evitar vazamento de recursos
+        scanner.close();
+    }
+}
+```
+
+---
+
 ## Tecnologias Utilizadas
 
 - Linguagem: Java
@@ -128,9 +128,6 @@ O número 10 é par.
 ## Licença
 
 Este projeto está licenciado sob a MIT License.
-
-
-Esse README agora inclui o código completo em uma seção dedicada, além de todas as demais informações necessárias.
 
 
 
