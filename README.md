@@ -75,7 +75,19 @@ public class ParOuImpar {
 
 Pré-requisitos
 
-Certifique-se de que o Java Development Kit (JDK) está instalado em sua máquina.
-Um terminal ou IDE que suporte Java.
+- Certifique-se de que o **Java Development Kit (JDK)** está instalado em sua máquina.
+- Um terminal ou IDE que suporte Java.
+
 Passos para executar:
+
 Clone ou faça o download do repositório:
+
+1 - Clone ou faça o download do repositório:
+```java
+git clone https://github.com/RenatoDEV87/par-ou-impar.git
+cd par-ou-impar
+```
+
+
+
+
