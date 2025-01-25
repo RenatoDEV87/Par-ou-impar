@@ -56,3 +56,12 @@ public class ParOuImpar {
     }
 }
 
+---
+
+## Como Funciona
+
+O programa solicita ao usuário que insira um número inteiro.
+Com base no valor fornecido, ele verifica se o número é divisível por 2:
+Se sim, o número é par.
+Caso contrário, o número é ímpar.
+O resultado é exibido no console.
