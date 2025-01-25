@@ -12,8 +12,7 @@ Este é um programa em Java que determina se um número inteiro fornecido pelo u
 4. [Como Executar](#como-executar)
 5. [Exemplo de Execução](#exemplo-de-execução)
 6. [Tecnologias Utilizadas](#tecnologias-utilizadas)
-7. [Contribuições](#contribuições)
-8. [Licença](#licença)
+7. [Licença](#licença)
 
 ---
 
@@ -102,6 +101,37 @@ java ParOuImpar
 ---
 
 ## Exemplo de Execução
+
+Entrada 1:
+
+```java
+Digite um número inteiro: 5
+O número 5 é ímpar.
+```
+
+Entrada 2:
+
+```java
+Digite um número inteiro: 10
+O número 10 é par.
+```
+
+---
+
+## Tecnologias Utilizadas
+
+- Linguagem: Java
+- Entrada de dados: Classe Scanner.
+
+---
+
+## Licença
+
+Este projeto está licenciado sob a MIT License.
+
+
+Esse README agora inclui o código completo em uma seção dedicada, além de todas as demais informações necessárias.
+
 
 
 
