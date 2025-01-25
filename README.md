@@ -56,6 +56,8 @@ public class ParOuImpar {
     }
 }
 
+```java
+
 ---
 
 ## Como Funciona
